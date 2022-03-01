@@ -21,8 +21,8 @@ public class Bitmap {
 
 
     public void setResultImage() {
-        //this.ResultImage = new BufferedImage(img.getWidth(),img.getHeight(),BufferedImage.TYPE_INT_ARGB);
-        this.ResultImage = img ;
+        this.ResultImage = new BufferedImage(img.getWidth(),img.getHeight(),BufferedImage.TYPE_INT_ARGB);
+        //this.ResultImage = img ;
     }
     public BufferedImage getResultImage() {
         return ResultImage;
